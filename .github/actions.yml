@@ -1,6 +1,6 @@
 name : Setting region in VM
 on :
-  workflow_dispatch: 
+  push: 
   steps:
     - name : "checkout"
       uses: actions/checkout@main
