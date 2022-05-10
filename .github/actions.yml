@@ -1,6 +1,9 @@
 name : Setting region in VM
 on :
   push: 
+jobs:
+  build:
+    runs-on: ubuntu-latest
   steps:
     - name : "checkout"
       uses: actions/checkout@main
